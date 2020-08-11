@@ -1,0 +1,21 @@
+
+Raspberry Pi Updates
+$ sudo apt-get update
+$ sudo apt-get upgrade
+
+GUI Modules
+*PyQt - $ sudo pip3 install PyQt5 
+
+Face Recognition Modules
+*Cognitive Face - $ sudo pip3 install cognitive_face
+ 
+
+Speech Recognition Modules
+*Speech Recognition - $ sudo pip3 install SpeechRecognition
+*Google Api client - $ sudo pip3 install --upgrade google-api-python-client
+*PyAudio - $ sudo apt-get install python3-pyaudio
+
+Motor Modules
+*i2c - $ sudo apt-get install python-smbus
+       $ sudo apt-get install i2c-tools
+*Adafruit PWM library - $ sudo pip3 install adafruit-pca9685
